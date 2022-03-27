@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>
+      Project Ushichka - Associated code
+    </title>
+<link rel="stylesheet" href="../../assets/css/bundle.css">
+<script src="../../assets/js/bundle.js"></script>
+</head>
+<body>
+    <div id="layout">
+      <a href="#menu" id="menuLink" class="menu-link">
+    <span></span>
+</a>
+
+<div id="menu">
+    <div class="pure-menu">
+        <a class="pure-menu-heading" href="../../">Project Ushichka</a>
+
+        <ul class="pure-menu-list">
+<li class="pure-menu-item">
+              <a class="pure-menu-link" href="../index.html">About</a>
+            </li>
+            <li class="pure-menu-item">
+              <a class="pure-menu-link" href="../history-of-project-ushichka/">History</a>
+            </li>
+            <li class="pure-menu-item">
+              <a class="pure-menu-link" href=".">Associated Code</a>
+            </li>
+            <li class="pure-menu-item">
+              <a class="pure-menu-link" href="../../blog/">Technical Blog</a>
+            </li>
+            <li class="pure-menu-item">
+              <a class="pure-menu-link" href="../../archive.html">Archive</a>
+            </li>
+            <li class="pure-menu-item">
+              <a class="pure-menu-link" href="../../categories/">Tags</a>
+            </li>
+
+
+          
+        </ul>
+</div>
+</div>
+
+      <div id="main">
+
+        
+          
+
+
+        <div class="yp-header-container">
+            <div class="yp-header" style="border-bottom: 1px solid #eee;">
+
+            <h1 class="yp-header__title">
+              Associated code
+            </h1>
+            <h2 class="yp-header__subtitle">
+              Code used to run, collect and analyse Ushichka. Also stuff that is potentially relevant.
+            </h2>
+            
+          </div>
+        </div>
+
+        <div class="yp-content">
+          
+
+
+
+
+
+
+
+
+<div class="pure-g">
+  <div class="pure-u-1">
+    <article class="yp-post__body"><section id="fieldrecorder"><h2>fieldrecorder</h2>
+<p>Holger's initial MATLAB + Soundmexpro script initially worked well to run the audio-video rig. The code began to raise issues on my laptop over time however. SoundmexPro is an audio-interface plugin which needs a dongle to run. However, thanks to my laptop's USB ports (and perhaps one too many rough field nights) - the dongle never sat properly, and even checking audio files while the code was running would trigger an error.</p>
+<p>At some point I finally got bugged with the finickiness of having a dongle to run data collection. Why not get rid of the dongle completely? And thus began my foray into the Python <code>sounddevice</code> package. <code>fieldrecorder</code> is the result - a bit of janky code I patched together. It is far from beautiful, but gets the job done - and may perhaps be of interest for anyone looking to develop an ASIO based input-output reactive system! There are at least two version of the code - one which triggers recordings automatically once a threshold is crossed, and one which requires a user to press a keyboard button.</p>
+<p>Check out <code>fieldrecorder</code> on <a class="reference external" href="https://github.com/thejasvibr/fieldrecorder">this link</a> .</p>
+</section><section id="beamshapes"><h2>beamshapes</h2>
+<p><code>beamshapes</code> started out as an attempt to realistically model sound radiation in bat calls. There is <cite>one</cite> model used a lot - and that assumes front-back symmetry in sound radiation. A lot of studies also only study what happens in <cite>front</cite> of the animal. <code>beamshapes</code> is an attempt to show the community that there are other sound radiation models out there that truly describe all-round sound radiation. The package implements multiple sound radiation models - which can be used for predicting acoustic detections or to estimate source model parameters.</p>
+<p>Check out <code>beamshapes</code> <a class="reference external" href="https://beamshapes.readthedocs.io/en/latest/">here</a>.</p>
+</section></article>
+</div>
+</div>
+        </div>
+
+
+          <div class="yp-footer">
+    Contents © 2022         <a href="mailto:thejasvib@gmail.com">Thejasvi Beleyur</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+    
+  </div>
+
+      </div>
+    </div>
+
+    
+    
+  </body>
+</html>
