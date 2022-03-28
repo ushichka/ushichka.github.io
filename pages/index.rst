@@ -3,7 +3,7 @@
 .. date: 2022-03-24 21:24:31 UTC+01:00
 .. tags: 
 .. category: 
-.. link: 
+.. link: about
 .. description: A multi-sensor glimpse into active sensing groups
 .. type: text
 

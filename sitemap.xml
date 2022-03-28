@@ -6,51 +6,67 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
-  <loc>https://example.com/2022/</loc>
+  <loc>https://ushichka.github.io/</loc>
+  <lastmod>2022-03-28T10:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://ushichka.github.io/2022/</loc>
   <lastmod>2022-03-24T21:59:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/archive.html</loc>
-  <lastmod>2022-03-24T22:02:00Z</lastmod>
+  <loc>https://ushichka.github.io/archive.html</loc>
+  <lastmod>2022-03-28T10:48:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/blog/</loc>
-  <lastmod>2022-03-24T20:26:00Z</lastmod>
+  <loc>https://ushichka.github.io/blog/</loc>
+  <lastmod>2022-03-28T10:37:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/categories/</loc>
+  <loc>https://ushichka.github.io/blog/aligning-thermal-video-and-lidar/</loc>
+  <lastmod>2022-03-28T10:26:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://ushichka.github.io/blog/visualising-bat-trajectories-in-the-cave/</loc>
+  <lastmod>2022-03-28T10:26:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://ushichka.github.io/categories/</loc>
   <lastmod>2022-03-24T20:16:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/galleries/</loc>
+  <loc>https://ushichka.github.io/galleries/</loc>
   <lastmod>2022-03-24T20:16:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/listings/</loc>
+  <loc>https://ushichka.github.io/listings/</loc>
   <lastmod>2022-03-24T20:16:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/pages/</loc>
+  <loc>https://ushichka.github.io/pages/</loc>
+  <lastmod>2022-03-28T10:35:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://ushichka.github.io/pages/associated-code/</loc>
   <lastmod>2022-03-24T21:41:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/pages/associated-code/</loc>
-  <lastmod>2022-03-24T21:41:00Z</lastmod>
- </url>
- <url>
-  <loc>https://example.com/pages/history-of-project-ushichka/</loc>
+  <loc>https://ushichka.github.io/pages/history-of-project-ushichka/</loc>
   <lastmod>2022-03-24T21:06:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/pages/welcome/</loc>
+  <loc>https://ushichka.github.io/pages/index/</loc>
+  <lastmod>2022-03-28T10:35:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://ushichka.github.io/pages/welcome/</loc>
   <lastmod>2022-03-24T20:16:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/posts/aligning-thermal-video-and-lidar/</loc>
+  <loc>https://ushichka.github.io/posts/aligning-thermal-video-and-lidar/</loc>
   <lastmod>2022-03-24T21:59:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/posts/visualising-bat-trajectories-in-the-cave/</loc>
+  <loc>https://ushichka.github.io/posts/visualising-bat-trajectories-in-the-cave/</loc>
   <lastmod>2022-03-24T22:02:00Z</lastmod>
  </url>
 </urlset>
