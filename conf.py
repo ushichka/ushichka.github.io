@@ -17,10 +17,10 @@ import time
 
 # Data about this site
 BLOG_AUTHOR = "Thejasvi Beleyur"  # (translatable)
-BLOG_TITLE = "Project Ushichka"  # (translatable)
+BLOG_TITLE = "Ushichka"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "https://example.com/"
+SITE_URL = "https://ushichka.github.io/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://example.com/"
@@ -159,7 +159,7 @@ NAVIGATION_ALT_LINKS = {
 }
 
 # Name of the theme to use.
-THEME = "yesplease"
+THEME = "kiss"
 
 # A theme color. In default themes, it might be displayed by some browsers as
 # the browser UI color (eg. Chrome on Android). Other themes might also use it
@@ -239,11 +239,12 @@ THEME_CONFIG = {
 #     )
 
 POSTS = (
-    ("posts/*.rst", "posts", "post.tmpl"),
-    ("posts/*.md", "posts", "post.tmpl"),
-    ("posts/*.txt", "posts", "post.tmpl"),
-    ("posts/*.html", "posts", "post.tmpl"),
+    ("posts/*.rst", "blog", "post.tmpl"),
+    ("posts/*.md", "blog", "post.tmpl"),
+    ("posts/*.txt", "blog", "post.tmpl"),
+    ("posts/*.html", "blog", "post.tmpl"),
 )
+
 PAGES = (
     ("pages/*.rst", "pages", "page.tmpl"),
     ("pages/*.md", "pages", "page.tmpl"),
@@ -1034,16 +1035,16 @@ COMMENT_SYSTEM_ID = ""
 # WARNING: if a page would conflict with the index file (usually
 #          caused by setting slug to `index`), the PAGE_INDEX
 #          will not be generated for that directory.
-# PAGE_INDEX = False
+PAGE_INDEX = False
 # Enable comments on pages (i.e. not posts)?
-# COMMENTS_IN_PAGES = False
+COMMENTS_IN_PAGES = False
 # Enable comments on picture gallery pages?
-# COMMENTS_IN_GALLERIES = False
+COMMENTS_IN_GALLERIES = False
 
 # What file should be used for directory indexes?
 # Defaults to index.html
 # Common other alternatives: default.html for IIS, index.php
-# INDEX_FILE = "index.html"
+INDEX_FILE = "index.html"
 
 # If a link ends in /index.html,  drop the index.html part.
 # http://mysite/foo/bar/index.html => http://mysite/foo/bar/
