@@ -24,4 +24,6 @@ What does `Ushichka` mean?
 `Ushichka` is the Bulgarian dimunitive for something small with ears. It is an homage to the place the data was
 collected - many thanks to Antoniya Hubancheva for coining the name!!
 
-
+More on `Ushichka`
+==================
+To know more about the project, website and other related stuff - check out this `blog post <../blog/why-ushichka>`_.

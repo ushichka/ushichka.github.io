@@ -944,7 +944,7 @@ IMAGE_FOLDERS = {'images': 'images'}
 # )
 
 # Show teasers (instead of full posts) in indexes? Defaults to False.
-# INDEX_TEASERS = False
+# INDEX_TEASERS = True
 
 # HTML fragments with the Read more... links.
 # The following tags exist and are replaced for you:
@@ -1132,7 +1132,8 @@ PRETTY_URLS = True
 #       with the MarkdownExtension class and should not be added here.
 # Defaults are markdown.extensions.(fenced_code|codehilite|extra)
 # markdown.extensions.meta is required for Markdown metadata.
-MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code', 'markdown.extensions.codehilite', 'markdown.extensions.extra']
+MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code', 'markdown.extensions.codehilite', 'markdown.extensions.extra',
+'markdown.extensions.meta']
 
 # Options to be passed to markdown extensions (See https://python-markdown.github.io/reference/)
 # Default is {} (no config at all)
